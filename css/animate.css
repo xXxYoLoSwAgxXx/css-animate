@@ -1,0 +1,61 @@
+#animate{
+  animation-name: yolo;
+  background-color: green;
+  animation-name: yolo;
+  animation-duration: 5s;
+  animation-name: yolo;
+  animation-duration: 0.15s;
+  animation-iteration-count: infinite;
+}
+@keyframes yolo {
+    
+    0% {background-color: yellow;}
+    25% {background-color: red;}
+    50% {background-color: #05ffe1;}
+    75% {background-color: blue;}
+    100% {background-color: orange;} 
+}
+
+#rotate {
+    transform: rotate(20deg);
+}
+#skew {
+  transform: skew(20deg, 10deg);
+}
+#all {
+  background-color: green;
+  border-bottom-color: red;
+  border-bottom-width: 10px;
+}
+#round{
+  animation-name: gang;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes gang {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+  0% {background-color: yellow;}
+    25% {background-color: red;}
+    50% {background-color: #05ffe1;}
+    75% {background-color: blue;}
+    100% {background-color: orange;} 
+}
+
+#gang{
+  animation-name: bang;
+  animation:bang 0.1s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate(0, 0, 0);
+  animation-iteration-count: infinite;
+
+
+}
+@keyframes bang {
+  from {transform: translate(1px);}
+  to {transform:translate(1000px);}
+  0% {background-color: yellow;}
+    25% {background-color: red;}
+    50% {background-color: #05ffe1;}
+    75% {background-color: blue;}
+    100% {background-color: orange;}
+}
